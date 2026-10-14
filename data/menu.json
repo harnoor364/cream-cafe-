@@ -1,0 +1,495 @@
+{
+  "_note": "Prices are ESTIMATES until confirmed with the owner. Set priceConfirmed: true once a price is real. sample: true = invented filler item, replace/remove with the real menu. veg: [CONFIRM] whether the café is pure veg.",
+  "categories": [
+    {
+      "id": "pizza",
+      "name": "Pizza",
+      "blurb": "Hand-stretched, oven-baked, generously topped."
+    },
+    {
+      "id": "pasta",
+      "name": "Pasta & Lasagna",
+      "blurb": "Comfort-food Italian, baked and saucy."
+    },
+    {
+      "id": "sandwiches",
+      "name": "Sandwiches & Snacks",
+      "blurb": "Grilled, cheesy and made for sharing."
+    },
+    {
+      "id": "mediterranean",
+      "name": "Mediterranean",
+      "blurb": "Crispy falafel, soft pita and dips."
+    },
+    {
+      "id": "desserts",
+      "name": "Ice Creams & Desserts",
+      "blurb": "Handcrafted scoops — ask about our newest flavours."
+    },
+    {
+      "id": "shakes",
+      "name": "Shakes",
+      "blurb": "Thick, creamy and blended to order."
+    },
+    {
+      "id": "mocktails",
+      "name": "Mocktails",
+      "blurb": "Fresh, fizzy and alcohol-free."
+    }
+  ],
+  "items": [
+    {
+      "id": "farmhouse-pizza",
+      "category": "pizza",
+      "name": "Farmhouse Pizza",
+      "description": "Capsicum, onion, tomato, mushroom and sweet corn on a cheesy, saucy base.",
+      "price": 349,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": true,
+      "sample": false,
+      "image": "images/farmhouse-pizza.jpg"
+    },
+    {
+      "id": "classic-margherita",
+      "category": "pizza",
+      "name": "Classic Margherita",
+      "description": "Tangy tomato sauce, mozzarella and fresh basil.",
+      "price": 279,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "paneer-tikka-pizza",
+      "category": "pizza",
+      "name": "Paneer Tikka Pizza",
+      "description": "Smoky tandoori paneer, onion and capsicum with mint drizzle.",
+      "price": 369,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "peri-peri-veggie-pizza",
+      "category": "pizza",
+      "name": "Peri Peri Veggie Pizza",
+      "description": "Spicy peri peri sauce, jalapeños, olives and peppers.",
+      "price": 359,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "four-cheese-pizza",
+      "category": "pizza",
+      "name": "Four Cheese Pizza",
+      "description": "Mozzarella, cheddar, parmesan and cream cheese.",
+      "price": 399,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "veg-lasagna",
+      "category": "pasta",
+      "name": "Veg Lasagna",
+      "description": "Layers of pasta, rich tomato-veg ragù and bubbling baked cheese.",
+      "price": 329,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": true,
+      "sample": false,
+      "image": "images/lasagna.jpg"
+    },
+    {
+      "id": "pasta-in-red-sauce",
+      "category": "pasta",
+      "name": "Pasta in Red Sauce",
+      "description": "Penne tossed in a slow-cooked tomato and herb sauce.",
+      "price": 269,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": true,
+      "sample": false,
+      "image": "images/pasta-red-sauce.jpg"
+    },
+    {
+      "id": "baked-veggies",
+      "category": "pasta",
+      "name": "Baked Veggies",
+      "description": "Garden vegetables baked in creamy white sauce under golden cheese.",
+      "price": 299,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": true,
+      "sample": false,
+      "image": "images/baked-veggies.jpg"
+    },
+    {
+      "id": "pasta-in-white-sauce",
+      "category": "pasta",
+      "name": "Pasta in White Sauce",
+      "description": "Creamy, garlicky Alfredo-style sauce with veggies.",
+      "price": 279,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "pink-sauce-pasta",
+      "category": "pasta",
+      "name": "Pink Sauce Pasta",
+      "description": "The best of both — tomato and cream, with a hint of chilli.",
+      "price": 289,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "pesto-pasta",
+      "category": "pasta",
+      "name": "Pesto Pasta",
+      "description": "Basil pesto, cherry tomatoes and parmesan.",
+      "price": 309,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "corn-sandwich",
+      "category": "sandwiches",
+      "name": "Corn Sandwich",
+      "description": "Sweet corn, cheese and herbs, grilled until golden.",
+      "price": 179,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": true,
+      "sample": false,
+      "image": "images/corn-sandwich.jpg"
+    },
+    {
+      "id": "paneer-tikka-sandwich",
+      "category": "sandwiches",
+      "name": "Paneer Tikka Sandwich",
+      "description": "Spiced paneer, onion and mint mayo, grilled.",
+      "price": 199,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "veg-club-sandwich",
+      "category": "sandwiches",
+      "name": "Veg Club Sandwich",
+      "description": "Triple-decker with veggies, cheese and fries on the side.",
+      "price": 229,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "cheesy-garlic-bread",
+      "category": "sandwiches",
+      "name": "Cheesy Garlic Bread",
+      "description": "Toasted with garlic butter and melted mozzarella.",
+      "price": 159,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "peri-peri-fries",
+      "category": "sandwiches",
+      "name": "Peri Peri Fries",
+      "description": "Crispy fries dusted with peri peri spice.",
+      "price": 149,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "loaded-nachos",
+      "category": "sandwiches",
+      "name": "Loaded Nachos",
+      "description": "Nachos with salsa, cheese sauce, beans and jalapeños.",
+      "price": 219,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "falafel-pita-bread",
+      "category": "mediterranean",
+      "name": "Falafel & Pita Bread",
+      "description": "Crispy chickpea falafel with warm pita, hummus and salad.",
+      "price": 279,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": true,
+      "sample": false,
+      "image": "images/falafel-pita.jpg"
+    },
+    {
+      "id": "hummus-with-pita",
+      "category": "mediterranean",
+      "name": "Hummus with Pita",
+      "description": "Creamy chickpea hummus, olive oil and paprika.",
+      "price": 219,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "falafel-wrap",
+      "category": "mediterranean",
+      "name": "Falafel Wrap",
+      "description": "Falafel, pickled veggies and garlic sauce in a soft wrap.",
+      "price": 229,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "mezze-platter",
+      "category": "mediterranean",
+      "name": "Mezze Platter",
+      "description": "Falafel, hummus, baba ganoush, pita and salad — great for two.",
+      "price": 399,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "greek-salad",
+      "category": "mediterranean",
+      "name": "Greek Salad",
+      "description": "Cucumber, tomato, olives, feta and oregano dressing.",
+      "price": 249,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "new-flavour-scoop",
+      "category": "desserts",
+      "name": "New Flavour Scoop",
+      "description": "Ask what's new this week — our customers' favourite surprise.",
+      "price": 99,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": true,
+      "sample": false,
+      "image": "images/ice-cream-1.jpg"
+    },
+    {
+      "id": "belgian-chocolate-scoop",
+      "category": "desserts",
+      "name": "Belgian Chocolate Scoop",
+      "description": "Dark, rich and silky.",
+      "price": 99,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "butterscotch-crunch-scoop",
+      "category": "desserts",
+      "name": "Butterscotch Crunch Scoop",
+      "description": "Caramel ice cream with crunchy praline.",
+      "price": 89,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "brownie-fudge-sundae",
+      "category": "desserts",
+      "name": "Brownie Fudge Sundae",
+      "description": "Warm brownie, two scoops, hot fudge and nuts.",
+      "price": 219,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": true,
+      "sample": true,
+      "image": "images/ice-cream-2.jpg"
+    },
+    {
+      "id": "ice-cream-cup-cone-2-scoops",
+      "category": "desserts",
+      "name": "Ice Cream Cup / Cone (2 scoops)",
+      "description": "Pick any two flavours.",
+      "price": 169,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true,
+      "image": "images/ice-cream-3.jpg"
+    },
+    {
+      "id": "waffle-with-ice-cream",
+      "category": "desserts",
+      "name": "Waffle with Ice Cream",
+      "description": "Crisp waffle, a scoop of your choice and chocolate sauce.",
+      "price": 229,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "belgian-chocolate-shake",
+      "category": "shakes",
+      "name": "Belgian Chocolate Shake",
+      "description": "Thick chocolate shake topped with cream.",
+      "price": 189,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "cookies-cream-shake",
+      "category": "shakes",
+      "name": "Cookies & Cream Shake",
+      "description": "Chocolate cookies blended with vanilla ice cream.",
+      "price": 189,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": true,
+      "sample": true,
+      "image": "images/shake.jpg"
+    },
+    {
+      "id": "strawberry-shake",
+      "category": "shakes",
+      "name": "Strawberry Shake",
+      "description": "Strawberry and vanilla ice cream.",
+      "price": 169,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "butterscotch-shake",
+      "category": "shakes",
+      "name": "Butterscotch Shake",
+      "description": "Caramel-butterscotch with crunchy bits.",
+      "price": 169,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "cold-coffee",
+      "category": "shakes",
+      "name": "Cold Coffee",
+      "description": "Classic creamy cold coffee.",
+      "price": 159,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "brownie-shake",
+      "category": "shakes",
+      "name": "Brownie Shake",
+      "description": "Fudgy brownie blended into chocolate shake.",
+      "price": 199,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "mojito",
+      "category": "mocktails",
+      "name": "Mojito",
+      "description": "Fresh mint, lime and soda over crushed ice.",
+      "price": 159,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": true,
+      "sample": false,
+      "image": "images/mojito.jpg"
+    },
+    {
+      "id": "watermelon-martini",
+      "category": "mocktails",
+      "name": "Watermelon Martini",
+      "description": "Fresh watermelon, lime and a sugar-rimmed glass.",
+      "price": 179,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": true,
+      "sample": false,
+      "image": "images/watermelon-martini.jpg"
+    },
+    {
+      "id": "daiquiri",
+      "category": "mocktails",
+      "name": "Daiquiri",
+      "description": "Strawberry, lime and crushed ice, blended smooth.",
+      "price": 179,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": true,
+      "sample": false,
+      "image": "images/daiquiri.jpg"
+    },
+    {
+      "id": "blue-lagoon",
+      "category": "mocktails",
+      "name": "Blue Lagoon",
+      "description": "Blue curaçao syrup, lemon and soda.",
+      "price": 159,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "green-apple-cooler",
+      "category": "mocktails",
+      "name": "Green Apple Cooler",
+      "description": "Green apple, mint and lemonade.",
+      "price": 159,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "kiwi-crush",
+      "category": "mocktails",
+      "name": "Kiwi Crush",
+      "description": "Kiwi, lime and soda.",
+      "price": 169,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    }
+  ]
+}

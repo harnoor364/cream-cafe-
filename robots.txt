@@ -1,0 +1,7 @@
+# DEMO MODE — keeps search engines out until the owner approves.
+# When going live, replace everything below with:
+#   User-agent: *
+#   Allow: /
+#   Sitemap: https://creamcafe.netlify.app/sitemap.xml
+User-agent: *
+Disallow: /

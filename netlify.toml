@@ -1,0 +1,23 @@
+# Static site — no build step.
+[build]
+  publish = "."
+  command = ""
+
+# DEMO MODE: belt-and-braces noindex header for every response.
+# Delete the X-Robots-Tag line when the owner approves the site (along with the robots meta tags and robots.txt rules).
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
