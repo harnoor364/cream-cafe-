@@ -182,9 +182,9 @@
     var hrefs = {
       tel: "tel:" + C.phoneTel, whatsapp: CC.waUrl("Hi " + C.name + "! "), maps: C.googleMapsUrl, directions: C.directionsUrl
     };
-    // "Order Now" → Swiggy when configured, otherwise the on-site menu
-    document.querySelectorAll('[data-href="swiggy"]').forEach(function (el) {
-      if (C.swiggyUrl) { el.setAttribute("href", C.swiggyUrl); el.setAttribute("target", "_blank"); el.setAttribute("rel", "noopener"); }
+    // "Order Now" → Zomato/Swiggy when configured, otherwise the on-site menu
+    document.querySelectorAll('[data-href="order-online"]').forEach(function (el) {
+      if (C.orderOnlineUrl) { el.setAttribute("href", C.orderOnlineUrl); el.setAttribute("target", "_blank"); el.setAttribute("rel", "noopener"); }
       else { el.setAttribute("href", "menu.html"); el.removeAttribute("target"); el.removeAttribute("rel"); }
     });
     document.querySelectorAll("[data-href]").forEach(function (el) {

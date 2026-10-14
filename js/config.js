@@ -61,10 +61,10 @@ window.CAFE_CONFIG = {
   },
   orderIdPrefix: "CC",                // Order IDs look like CC-1014-0001 (CC-MMDD-sequence)
 
-  // "Order Now" buttons (navbar + home hero) open this Swiggy page in a new tab.
+  // "Order Now" buttons (navbar + home hero) open the café's Zomato page in a new tab.
   // Set to "" to send "Order Now" to the website's own menu/ordering instead.
-  // [CONFIRM] This link is currently Kumar Ice Cream & Fast Food (Jawahar Nagar) — replace with Cream Cafe's own Swiggy listing.
-  swiggyUrl: "https://www.swiggy.com/city/ludhiana/kumar-ice-cream-and-fast-food-jawahar-nagar-chaura-bazar-rest205387",
+  // [CONFIRM] Cream Cafe's Zomato listing (SCF 29, BRS Nagar) — check online ordering is active there.
+  orderOnlineUrl: "https://www.zomato.com/ludhiana/cream-cafe-brs-nagar",
 
   // ---- Menu prices ----
   // false = show "₹XXX" for prices not yet confirmed (menu.json "priceConfirmed": false).
