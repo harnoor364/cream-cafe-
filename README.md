@@ -76,7 +76,7 @@ The static HTML also has default values (phone, address and so on) so the pages 
 * **Prices are estimates.** Menu cards show `₹XXX` until `priceConfirmed` is `true`. The order page always calculates with the numbers and marks unconfirmed ones with `*`, and the WhatsApp message notes that prices are estimates.
 * Items marked `"sample": true` are realistic placeholders. Replace them with the real menu.
 * The home page "Popular dishes" list is the `POPULAR` array at the top of `js/home.js`. The three mocktail cards on the home page use the ids `mojito`, `watermelon-martini` and `daiquiri`.
-* The café's printed menu (from the photos) has more sections than the demo shows: Smoothies, Continental Starters, Grilled Wraps, Sides, Sundaes and Waffles. Add any of them as new entries in `categories`. The photos were too low-resolution to read items or prices, so take clear photos of each page.
+* Menu sections follow the café's printed menu (Italian Pizza, Pasta, Continental Main Course & Starters, Grilled Sandwiches & Wraps, Salads, Sides, Ice Creams & Sundaes, Waffles, Shakes, Smoothies, Cold/Hot Coffee, Tea, Iced Tea, Mocktails, Soft Drinks). The menu photos received were thumbnails too small to read, so most items are typical `sample` fillers. Take clear photos of every page and replace them with the real items and prices.
 
 ## Replacing images
 
@@ -89,7 +89,7 @@ Keep the **same filename** and just overwrite the file. Every placeholder says "
 | `lasagna.jpg`, `pasta-red-sauce.jpg`, `farmhouse-pizza.jpg`, `falafel-pita.jpg`, `corn-sandwich.jpg`, `baked-veggies.jpg` | Popular dishes + menu thumbnails | 1200×900 |
 | `ice-cream-1/2/3.jpg`, `shake.jpg` | Desserts section, menu | 1200×900 |
 | `mojito.jpg`, `watermelon-martini.jpg`, `daiquiri.jpg` | Mocktail cards | 1200×900 |
-| `gallery-1…5.jpg` | Gallery | 1200×900 |
+| `gallery-1…5.jpg` | Gallery (real café photos, but low-res thumbnails, so swap for full-size originals) | 1200×900 |
 | `party-birthday/date-night/group/kitty.jpg` | Parties page | 1200×900 |
 | `og-image.jpg` | WhatsApp/Facebook link preview | 1200×630 |
 | `favicon.svg`, `apple-touch-icon.png` | Browser icon | — |
@@ -144,6 +144,8 @@ SEO is already in place: a unique title and description per page targeting "Crea
 - [ ] Final domain name
 
 **Menu & prices**
+- [ ] Clear, full-resolution photos of every menu page (items + prices), since the ones received were too small to read
+- [ ] Food photos used: is the green pasta **pesto pasta**? Is the pink martini in the two-drink photo a **daiquiri**?
 - [ ] Full real menu with prices (all current prices are estimates shown as ₹XXX)
 - [ ] Mojito, Watermelon Martini and Daiquiri are **mocktails** (alcohol-free)? Currently labelled "Mocktails"
 - [ ] The current "new" ice cream flavours, to name them on the site

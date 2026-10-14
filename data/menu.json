@@ -1,20 +1,35 @@
 {
-  "_note": "Prices are ESTIMATES until confirmed with the owner. Set priceConfirmed: true once a price is real. sample: true = invented filler item, replace/remove with the real menu. veg: [CONFIRM] whether the café is pure veg.",
+  "_note": "Sections follow the café's printed menu. Prices are ESTIMATES until confirmed (priceConfirmed: true). sample: true = typical item filled in because the menu photos were too small to read — replace with the real items. veg: [CONFIRM] whether the café is pure veg.",
   "categories": [
     {
       "id": "pizza",
-      "name": "Pizza",
+      "name": "Italian Pizza",
       "blurb": "Hand-stretched, oven-baked, generously topped."
     },
     {
       "id": "pasta",
-      "name": "Pasta & Lasagna",
+      "name": "Italian Pasta & Lasagna",
       "blurb": "Comfort-food Italian, baked and saucy."
     },
     {
+      "id": "main-course",
+      "name": "Continental Main Course",
+      "blurb": "Hearty baked and grilled plates."
+    },
+    {
+      "id": "starters",
+      "name": "Continental Starters",
+      "blurb": "Little plates to start (or share)."
+    },
+    {
       "id": "sandwiches",
-      "name": "Sandwiches & Snacks",
-      "blurb": "Grilled, cheesy and made for sharing."
+      "name": "Grilled Sandwiches",
+      "blurb": "Toasty, cheesy and golden."
+    },
+    {
+      "id": "wraps",
+      "name": "Grilled Wraps",
+      "blurb": "Soft wraps, grilled and stuffed."
     },
     {
       "id": "mediterranean",
@@ -22,9 +37,24 @@
       "blurb": "Crispy falafel, soft pita and dips."
     },
     {
+      "id": "salads",
+      "name": "Cold Salads",
+      "blurb": "Fresh, crunchy and light."
+    },
+    {
+      "id": "sides",
+      "name": "Sides",
+      "blurb": "Fries, wedges and more."
+    },
+    {
       "id": "desserts",
-      "name": "Ice Creams & Desserts",
-      "blurb": "Handcrafted scoops — ask about our newest flavours."
+      "name": "Ice Creams & Sundaes",
+      "blurb": "Cups, cones and sundae scoops — ask about our newest flavours."
+    },
+    {
+      "id": "waffles",
+      "name": "Waffles",
+      "blurb": "Crisp waffles with warm toppings."
     },
     {
       "id": "shakes",
@@ -32,9 +62,39 @@
       "blurb": "Thick, creamy and blended to order."
     },
     {
+      "id": "smoothies",
+      "name": "Smoothies",
+      "blurb": "Fruit-packed and blended thick."
+    },
+    {
+      "id": "cold-coffee",
+      "name": "Cold Coffee",
+      "blurb": "Chilled, creamy and blended."
+    },
+    {
+      "id": "hot-coffee",
+      "name": "Hot Coffee",
+      "blurb": "Freshly brewed espresso classics."
+    },
+    {
+      "id": "tea",
+      "name": "Tea",
+      "blurb": "Comforting cups, all day."
+    },
+    {
+      "id": "iced-tea",
+      "name": "Iced Tea",
+      "blurb": "Cool, fruity and refreshing."
+    },
+    {
       "id": "mocktails",
       "name": "Mocktails",
       "blurb": "Fresh, fizzy and alcohol-free."
+    },
+    {
+      "id": "soft-drinks",
+      "name": "Soft Drinks",
+      "blurb": "Chilled fizz to go with anything."
     }
   ],
   "items": [
@@ -119,18 +179,6 @@
       "image": "images/pasta-red-sauce.jpg"
     },
     {
-      "id": "baked-veggies",
-      "category": "pasta",
-      "name": "Baked Veggies",
-      "description": "Garden vegetables baked in creamy white sauce under golden cheese.",
-      "price": 299,
-      "priceConfirmed": false,
-      "veg": true,
-      "popular": true,
-      "sample": false,
-      "image": "images/baked-veggies.jpg"
-    },
-    {
       "id": "pasta-in-white-sauce",
       "category": "pasta",
       "name": "Pasta in White Sauce",
@@ -156,8 +204,109 @@
       "id": "pesto-pasta",
       "category": "pasta",
       "name": "Pesto Pasta",
-      "description": "Basil pesto, cherry tomatoes and parmesan.",
+      "description": "Basil pesto tossed with vegetables, served with garlic bread.",
       "price": 309,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": false,
+      "image": "images/pesto-pasta.jpg"
+    },
+    {
+      "id": "baked-veggies",
+      "category": "main-course",
+      "name": "Baked Veggies",
+      "description": "Garden vegetables baked in creamy white sauce under golden cheese.",
+      "price": 299,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": true,
+      "sample": false,
+      "image": "images/baked-veggies.jpg"
+    },
+    {
+      "id": "veg-sizzler",
+      "category": "main-course",
+      "name": "Veg Sizzler",
+      "description": "Grilled veggies, cottage cheese, rice and fries on a sizzling plate.",
+      "price": 349,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "mexican-rice-with-beans",
+      "category": "main-course",
+      "name": "Mexican Rice with Beans",
+      "description": "Spiced rice, beans, salsa and cheese sauce.",
+      "price": 279,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "grilled-cottage-cheese-steak",
+      "category": "main-course",
+      "name": "Grilled Cottage Cheese Steak",
+      "description": "Herb-grilled paneer with mash and sautéed veggies.",
+      "price": 329,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "cheesy-garlic-bread",
+      "category": "starters",
+      "name": "Cheesy Garlic Bread",
+      "description": "Toasted with garlic butter and melted mozzarella.",
+      "price": 159,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "loaded-nachos",
+      "category": "starters",
+      "name": "Loaded Nachos",
+      "description": "Nachos with salsa, cheese sauce, beans and jalapeños.",
+      "price": 219,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "bruschetta",
+      "category": "starters",
+      "name": "Bruschetta",
+      "description": "Toasted bread with tomato, basil and olive oil.",
+      "price": 179,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "cheese-corn-balls",
+      "category": "starters",
+      "name": "Cheese Corn Balls",
+      "description": "Crispy, golden and gooey inside.",
+      "price": 199,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "paneer-tikka-bites",
+      "category": "starters",
+      "name": "Paneer Tikka Bites",
+      "description": "Smoky tandoori paneer with mint dip.",
+      "price": 249,
       "priceConfirmed": false,
       "veg": true,
       "popular": false,
@@ -198,33 +347,33 @@
       "sample": true
     },
     {
-      "id": "cheesy-garlic-bread",
-      "category": "sandwiches",
-      "name": "Cheesy Garlic Bread",
-      "description": "Toasted with garlic butter and melted mozzarella.",
-      "price": 159,
+      "id": "falafel-wrap",
+      "category": "wraps",
+      "name": "Falafel Wrap",
+      "description": "Falafel, pickled veggies and garlic sauce in a soft wrap.",
+      "price": 229,
       "priceConfirmed": false,
       "veg": true,
       "popular": false,
       "sample": true
     },
     {
-      "id": "peri-peri-fries",
-      "category": "sandwiches",
-      "name": "Peri Peri Fries",
-      "description": "Crispy fries dusted with peri peri spice.",
-      "price": 149,
-      "priceConfirmed": false,
-      "veg": true,
-      "popular": false,
-      "sample": true
-    },
-    {
-      "id": "loaded-nachos",
-      "category": "sandwiches",
-      "name": "Loaded Nachos",
-      "description": "Nachos with salsa, cheese sauce, beans and jalapeños.",
+      "id": "paneer-tikka-wrap",
+      "category": "wraps",
+      "name": "Paneer Tikka Wrap",
+      "description": "Spiced paneer, onions and mint mayo.",
       "price": 219,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "mexican-bean-wrap",
+      "category": "wraps",
+      "name": "Mexican Bean Wrap",
+      "description": "Beans, salsa, cheese and jalapeños.",
+      "price": 199,
       "priceConfirmed": false,
       "veg": true,
       "popular": false,
@@ -234,7 +383,7 @@
       "id": "falafel-pita-bread",
       "category": "mediterranean",
       "name": "Falafel & Pita Bread",
-      "description": "Crispy chickpea falafel with warm pita, hummus and salad.",
+      "description": "Crispy chickpea falafel with soft pita, hummus and dips.",
       "price": 279,
       "priceConfirmed": false,
       "veg": true,
@@ -254,17 +403,6 @@
       "sample": true
     },
     {
-      "id": "falafel-wrap",
-      "category": "mediterranean",
-      "name": "Falafel Wrap",
-      "description": "Falafel, pickled veggies and garlic sauce in a soft wrap.",
-      "price": 229,
-      "priceConfirmed": false,
-      "veg": true,
-      "popular": false,
-      "sample": true
-    },
-    {
       "id": "mezze-platter",
       "category": "mediterranean",
       "name": "Mezze Platter",
@@ -277,10 +415,65 @@
     },
     {
       "id": "greek-salad",
-      "category": "mediterranean",
+      "category": "salads",
       "name": "Greek Salad",
       "description": "Cucumber, tomato, olives, feta and oregano dressing.",
       "price": 249,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "russian-salad",
+      "category": "salads",
+      "name": "Russian Salad",
+      "description": "Creamy veggies and pineapple.",
+      "price": 199,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "pasta-salad",
+      "category": "salads",
+      "name": "Pasta Salad",
+      "description": "Chilled pasta, veggies and herb dressing.",
+      "price": 219,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "peri-peri-fries",
+      "category": "sides",
+      "name": "Peri Peri Fries",
+      "description": "Crispy fries dusted with peri peri spice.",
+      "price": 149,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "french-fries",
+      "category": "sides",
+      "name": "French Fries",
+      "description": "Classic salted fries.",
+      "price": 129,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "potato-wedges",
+      "category": "sides",
+      "name": "Potato Wedges",
+      "description": "Seasoned wedges with dip.",
+      "price": 149,
       "priceConfirmed": false,
       "veg": true,
       "popular": false,
@@ -345,10 +538,43 @@
       "image": "images/ice-cream-3.jpg"
     },
     {
-      "id": "waffle-with-ice-cream",
+      "id": "choco-fudge-sundae",
       "category": "desserts",
+      "name": "Choco Fudge Sundae",
+      "description": "Scoops with hot fudge and nuts.",
+      "price": 199,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "waffle-with-ice-cream",
+      "category": "waffles",
       "name": "Waffle with Ice Cream",
       "description": "Crisp waffle, a scoop of your choice and chocolate sauce.",
+      "price": 229,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "chocolate-waffle",
+      "category": "waffles",
+      "name": "Chocolate Waffle",
+      "description": "Warm waffle with chocolate sauce.",
+      "price": 199,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "chocolate-hazelnut-waffle",
+      "category": "waffles",
+      "name": "Chocolate Hazelnut Waffle",
+      "description": "Hazelnut-chocolate spread and nuts.",
       "price": 229,
       "priceConfirmed": false,
       "veg": true,
@@ -401,9 +627,64 @@
       "sample": true
     },
     {
-      "id": "cold-coffee",
+      "id": "brownie-shake",
       "category": "shakes",
-      "name": "Cold Coffee",
+      "name": "Brownie Shake",
+      "description": "Fudgy brownie blended into chocolate shake.",
+      "price": 199,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "mixed-berry-smoothie",
+      "category": "smoothies",
+      "name": "Mixed Berry Smoothie",
+      "description": "Berries blended with yogurt.",
+      "price": 199,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "mango-smoothie",
+      "category": "smoothies",
+      "name": "Mango Smoothie",
+      "description": "Ripe mango, thick and creamy.",
+      "price": 189,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "blueberry-smoothie",
+      "category": "smoothies",
+      "name": "Blueberry Smoothie",
+      "description": "Blueberry and yogurt.",
+      "price": 199,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "banana-smoothie",
+      "category": "smoothies",
+      "name": "Banana Smoothie",
+      "description": "Banana, honey and milk.",
+      "price": 179,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "cold-coffee",
+      "category": "cold-coffee",
+      "name": "Classic Cold Coffee",
       "description": "Classic creamy cold coffee.",
       "price": 159,
       "priceConfirmed": false,
@@ -412,11 +693,165 @@
       "sample": true
     },
     {
-      "id": "brownie-shake",
-      "category": "shakes",
-      "name": "Brownie Shake",
-      "description": "Fudgy brownie blended into chocolate shake.",
-      "price": 199,
+      "id": "cold-coffee-with-ice-cream",
+      "category": "cold-coffee",
+      "name": "Cold Coffee with Ice Cream",
+      "description": "Cold coffee topped with a scoop of vanilla.",
+      "price": 179,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "hazelnut-cold-coffee",
+      "category": "cold-coffee",
+      "name": "Hazelnut Cold Coffee",
+      "description": "Cold coffee with a nutty hazelnut twist.",
+      "price": 179,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "iced-americano",
+      "category": "cold-coffee",
+      "name": "Iced Americano",
+      "description": "Espresso over ice, black and bold.",
+      "price": 139,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "espresso",
+      "category": "hot-coffee",
+      "name": "Espresso",
+      "description": "A short, strong shot.",
+      "price": 99,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "americano",
+      "category": "hot-coffee",
+      "name": "Americano",
+      "description": "Espresso with hot water.",
+      "price": 119,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "cappuccino",
+      "category": "hot-coffee",
+      "name": "Cappuccino",
+      "description": "Espresso with steamed milk and foam.",
+      "price": 139,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "caf-latte",
+      "category": "hot-coffee",
+      "name": "Café Latte",
+      "description": "Espresso with lots of silky milk.",
+      "price": 149,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "hot-chocolate",
+      "category": "hot-coffee",
+      "name": "Hot Chocolate",
+      "description": "Rich, creamy and comforting.",
+      "price": 159,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "masala-tea",
+      "category": "tea",
+      "name": "Masala Tea",
+      "description": "Spiced Indian chai.",
+      "price": 59,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "ginger-tea",
+      "category": "tea",
+      "name": "Ginger Tea",
+      "description": "Chai with fresh ginger.",
+      "price": 59,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "lemon-tea",
+      "category": "tea",
+      "name": "Lemon Tea",
+      "description": "Light tea with lemon.",
+      "price": 69,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "green-tea",
+      "category": "tea",
+      "name": "Green Tea",
+      "description": "Light and soothing.",
+      "price": 79,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "lemon-iced-tea",
+      "category": "iced-tea",
+      "name": "Lemon Iced Tea",
+      "description": "Chilled tea with lemon.",
+      "price": 129,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "peach-iced-tea",
+      "category": "iced-tea",
+      "name": "Peach Iced Tea",
+      "description": "Chilled tea with peach.",
+      "price": 139,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "watermelon-iced-tea",
+      "category": "iced-tea",
+      "name": "Watermelon Iced Tea",
+      "description": "Chilled tea with watermelon.",
+      "price": 139,
       "priceConfirmed": false,
       "veg": true,
       "popular": false,
@@ -486,6 +921,39 @@
       "name": "Kiwi Crush",
       "description": "Kiwi, lime and soda.",
       "price": 169,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "soft-drink-can",
+      "category": "soft-drinks",
+      "name": "Soft Drink (Can)",
+      "description": "Ask for today's options.",
+      "price": 60,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "fresh-lime-soda",
+      "category": "soft-drinks",
+      "name": "Fresh Lime Soda",
+      "description": "Sweet, salted or mixed.",
+      "price": 99,
+      "priceConfirmed": false,
+      "veg": true,
+      "popular": false,
+      "sample": true
+    },
+    {
+      "id": "mineral-water",
+      "category": "soft-drinks",
+      "name": "Mineral Water",
+      "description": "Chilled bottled water.",
+      "price": 30,
       "priceConfirmed": false,
       "veg": true,
       "popular": false,
