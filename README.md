@@ -51,6 +51,7 @@ Every value is commented. The main ones:
 | `services.driveThrough / delivery` | Set `false` to hide that order type |
 | `pureVeg` | `true` shows a "100% Vegetarian" badge in the footer |
 | `showEstimatedPrices` | `false` (default) shows **₹XXX** for unconfirmed prices on the menu; `true` shows the estimates |
+| `swiggyUrl` | Where the **Order Now** buttons (navbar + home hero) go — opens Swiggy in a new tab. Set `""` to use the site's own menu/ordering |
 | `demo.enabled` | Turns the demo banner on or off |
 
 The static HTML also has default values (phone, address and so on) so the pages still read correctly without JavaScript. The JSON-LD in `index.html`, `sitemap.xml` and the `og:`/canonical URLs are static too, so update those by hand if the domain, phone or hours change.
@@ -149,6 +150,7 @@ SEO is already in place: a unique title and description per page targeting "Crea
 - [ ] Which dishes to feature as "Popular"
 
 **Ordering**
+- [ ] **Swiggy link for Order Now** — the current `swiggyUrl` points to *Kumar Ice Cream & Fast Food, Jawahar Nagar* (the link provided), not Cream Cafe. Replace with Cream Cafe's own Swiggy listing
 - [ ] Do they want online orders via WhatsApp to 089088 88875?
 - [ ] Direct-order discount: **10%**?
 - [ ] Delivery radius **4 km**, fee **₹40**, free above **₹499**, minimum **₹199**?
